@@ -35,5 +35,12 @@ This project uses telemetry data provided as part of the Deloitte Data Analytics
 The dataset contains telemetry logs from industrial machines across multiple Daikibo factories.
 Each log records machine status (healthy/unhealthy), temperature readings, and location metadata such as factory, city, and section.
 
+_**How to Run**_
+
+1. Extract the dataset zip file.
+2. Ensure the dataset is in the same directory as the script.
+3. Run the analysis:
+
+python machine_downtime_analysis.py
 
 
